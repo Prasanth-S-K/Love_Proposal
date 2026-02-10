@@ -6,18 +6,20 @@ let heartInterval;
 let heartSpeed = 300;
 
 const questionVideos = {
-  0: "./assests/one/avan_unnai_padaithan.mp4",
-  1: "./assests/two/pushpa.mp4",
-  2: "./assests/three/SENJITALEY.mp4",
-  3: "./assests/four/valithunaiae.mp4",
-  4: "./assests/five/sidu.mp4",
-  5: "./assests/six/marakavillaiae.mp4",
-  6: "./assests/seven/vilambara idaivelai.mp4",
-  7: "./assests/four/Vaa senthazhinii❤--  tag yours---- Subscribe for more-- like potrugaa marakaama --------(720P_HD).mp4",
-  8: "./assests/five/dheema.mp4",
-  9: "./assests/one/AZHAGIYE MARRY ME😍❤_4K 2160p_ _whatsappstatus 😇⚡_OWN EDIT💕(720P_HD).mp4",
-  Final_message: "./assests/Final_message/promise.mp4",
-  Final_final: "./assests/Final_final/marriage.mp4",
+  0: "https://res.cloudinary.com/dtfndvjsg/video/upload/v1770742967/avan_unnai_padaithan_oynwsv.mp4",
+  1: "https://res.cloudinary.com/dtfndvjsg/video/upload/v1770743118/pushpa_gbemek.mp4",
+  2: "https://res.cloudinary.com/dtfndvjsg/video/upload/v1770743143/SENJITALEY_v8bdnm.mp4",
+  3: "https://res.cloudinary.com/dtfndvjsg/video/upload/v1770743169/valithunaiae_y21r3e.mp4",
+  4: "https://res.cloudinary.com/dtfndvjsg/video/upload/v1770743191/sidu_mka1rr.mp4",
+  5: "https://res.cloudinary.com/dtfndvjsg/video/upload/v1770743208/marakavillaiae_slwstb.mp4",
+  6: "https://res.cloudinary.com/dtfndvjsg/video/upload/v1770743227/vilambara_idaivelai_ngsbi5.mp4",
+  7: "https://res.cloudinary.com/dtfndvjsg/video/upload/v1770743170/senthalini_yxmr6s.mp4",
+  8: "https://res.cloudinary.com/dtfndvjsg/video/upload/v1770743197/dheema_h6sexo.mp4",
+  9: "https://res.cloudinary.com/dtfndvjsg/video/upload/v1770742975/marry_me_jyn6ik.mp4",
+  Final_message:
+    "https://res.cloudinary.com/dtfndvjsg/video/upload/v1770743238/promise_h9rkkv.mp4",
+  Final_final:
+    "https://res.cloudinary.com/dtfndvjsg/video/upload/v1770743262/marriage_eq0kwk.mp4",
 };
 
 function updateVideo(key) {

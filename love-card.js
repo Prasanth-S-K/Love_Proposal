@@ -161,7 +161,7 @@ function enableNoRun() {
   noRun = 1;
 
   document.getElementById("card").innerHTML = `
-    <video id="questionVideo" autoplay loop playsinline></video>
+    <video id="questionVideo" autoplay playsinline></video>
     <h2>I bet you can't reject me 😏 Try if you can!</h2>
     <div id="buttons">
       <button class="yes" onclick="showNoRunFinalMessage()">Yes</button>
@@ -174,8 +174,8 @@ function enableNoRun() {
   const noBtn = document.getElementById("runNo");
   noBtn.addEventListener("mouseenter", () => {
     noBtn.style.position = "absolute";
-    noBtn.style.left = Math.random() * 350 + "px";
-    noBtn.style.top = Math.random() * 250 + "px";
+    noBtn.style.left = Math.random() * 500 + "px";
+    noBtn.style.top = Math.random() * 400 + "px";
   });
 }
 
